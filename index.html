@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jason Force">
+  <title>Jason Force Portfolio</title>
+
+  <!-- TODO See if I even need to load normalize.css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300,200' rel='stylesheet'>
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Leaving script loading in the head for now.  Doesn't seem to be too detrimental. -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <main class="grid container-fluid">
+    <header class="row header">
+      <figure class="col-xs-5 col-sm-6 col-md-2 brand">
+        <img class="img-responsive img-circle brand-img" src="./images/caricature2.jpg" alt="A picture of me">
+      </figure>
+      <section class="col-xs-6 col-sm-6 col-md-10 text-right head-line">
+        <h1 class="text-uppercase name">Jason Force</h1>
+        <h3>...an object in motion</h3>
+      </section>
+    </header>
+    <figure class="row">
+      <img class="cover-image" src="./images/code-snippet2.jpg" alt="Picture of code in a text editor">
+    </figure>
+    <section class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="text-left">Stuff I claim to know about</h2>
+        <ul class="text-left list-inline pull-right">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>Ruby</li>
+          <li>Rails</li>
+        </ul>
+      </div>
+
+      <!-- Originally above and below were in seperate rows -->
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="text-left">Stuff I want to know about</h2>
+        <ul class="text-left list-inline pull-right">
+          <li>Android Development</li>
+          <li>iOS Development</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <section class="row">
+      <h2 class="col-xs-12 text-left">Featured Work</h2><br>
+      <p class="col-xs-12 text-left indent">--click each picture for a brief description...</p>
+    </section>
+    <section class="row">
+      <article class="col-xs-12 col-sm-6 col-md-4 work">
+        <figure>
+          <img class="img-responsive img-rounded work-img" src="./images/book_bw_sq.jpg" alt="Black and white drawing of books." data-toggle="modal" data-target="#books-unread">
+          <figcaption>An Unfinished Read</figcaption>
+        </figure>
+        <a class="proj-link" href="http://www.jasonforce.tech/books-unread/">Books I still havent' read.</a>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 work">
+        <figure>
+          <img class="img-responsive img-rounded work-img" src="./images/frogger-pic-sq.jpg" alt="screenshot of my frogger game" data-toggle="modal" data-target="#frogger-clone">
+          <figcaption>Frogger Clone</figcaption>
+        </figure>
+        <a class="proj-link" href="http://www.jasonforce.tech/frogger-clone/">My instantiation of Frogger</a>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 work">
+        <figure>
+          <img class="img-responsive img-rounded work-img" src="./images/resume-pic-sq.jpg" alt="a screenshot snippet of my resume" data-toggle="modal" data-target="#js-built-resume">
+          <figcaption>JS Built Resume</figcaption>
+        </figure>
+        <a class="proj-link" href="http://www.jasonforce.tech/dynamic-resume/">My resume built with JS</a>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 work">
+        <figure>
+          <img class="img-responsive img-rounded work-img" src="./images/neighborhood-map-sq.jpg" alt="a screenshot of my neighborhood map project" data-toggle="modal" data-target="#neighborhood-map">
+          <figcaption>Neighborhood Map</figcaption>
+        </figure>
+        <a class="proj-link" href="http://www.jasonforce.tech/neighborhood-map/">My Neighborhood Map Project</a>
+      </article>
+    </section>
+    <section class="row">
+      <h3><a href="http://www.jasonforce.tech/now">Click here to see what I'm up to right now.</a></h3>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <section class="modal fade" id="books-unread" tabindex="-1" role="dialog" aria-labelledby="books-unread-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="books-unread-label">An Unfinished Read</h4>
+          <a class="proj-link" href="http://www.jasonforce.tech/books-unread/">Books I still havent' read.</a>
+        </div>
+        <article class="modal-body">
+          <img class="img-responsive img-rounded work-img" src="./images/book_bw_sq.jpg" alt="black and white, hand drawn books">
+          <p class="lead text-justify">
+            I needed inspiration for something to build and happened to be staring at the bookshelf next to my desk when I noticed it was full of books I never finished.  I thought that maybe someone out there might like to laugh at how terrible I am at finishing a book.....and so this page was conceived.  Please keep in mind this is still a work in progress... As are almost all of my projects.  I hope you enjoy perusing some of my failed endevours.  &#x1F60A;
+          </p>
+        </article>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <section class="modal fade" id="frogger-clone" tabindex="-1" role="dialog" aria-labelledby="frogger-clone-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="frogger-clone-label">Frogger Clone</h4>
+          <a class="proj-link" href="http://www.jasonforce.tech/frogger-clone/">My instantiation of Frogger</a>
+        </div>
+        <article class="modal-body">
+          <img class="img-responsive img-rounded work-img" src="./images/frogger-pic-sq.jpg" alt="screenshot of my frogger game">
+          <p class="lead text-justify">
+            This is a clone of the classic game, Frogger.  This was built as part of Udacity's Front-End Developer Nanodegree.  It could probably use some more features added, but it runs pretty well and I'm happy with it for now.
+          </p>
+        </article>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <section class="modal fade" id="js-built-resume" tabindex="-1" role="dialog" aria-labelledby="js-built-resume-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="js-built-resume-label">JS Built Resume</h4>
+          <a class="proj-link" href="http://www.jasonforce.tech/dynamic-resume/">My resume built with JS</a>
+        </div>
+        <article class="modal-body">
+          <img class="img-responsive img-rounded work-img" src="./images/resume-pic-sq.jpg" alt="a screenshot snippet of my resume">
+          <p class="lead text-justify">
+            Here's a copy of my resume generated by JavaScript.  Nearly all of the info is contained within JSON and is rendered on screen via JS.
+          </p>
+        </article>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <section class="modal fade" id="neighborhood-map" tabindex="-1" role="dialog" aria-labelledby="neighborhood-map-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="neighborhood-map-label">Neighborhood Map</h4>
+          <a class="proj-link" href="http://www.jasonforce.tech/neighborhood-map/">A neighborhood in Independence, MO</a>
+        </div>
+        <article class="modal-body">
+          <img class="img-responsive img-rounded work-img" src="./images/neighborhood-map-sq.jpg" alt="a screenshot snippet of my resume">
+          <p class="lead text-justify">
+            A map of an Independence, MO neighborhood.  Utilzes Knockout.js, Google Maps API, and Wikipedia API.
+          </p>
+        </article>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

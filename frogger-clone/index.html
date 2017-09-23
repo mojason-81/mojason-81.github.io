@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Effective JavaScript: Frogger</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jason Force">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <style>
+    .mono{
+      font-family: "Courier New";
+      font-size: 1.25em;
+    }
+  </style>
+</head>
+<body class="text-center">
+  <div class="row">
+    <h1 class="hero-unit">
+      Frogger......clone.
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-3 mono">
+      <h3>How to play</h3>
+      <p>
+        Using the direction keys on your keyboard, move your character toward the water at the top
+        of the game board.  You get 3 lives.  After being hit by a bug, you will lose a life and you
+        will lose any points you earned on that particular try.  Collect items on the board and reach
+        the water to increase your score.  After losing all 3 lives, your score is set to 0.
+      </p>
+      <a href="http://www.jasonforce.tech">Click here to go back to my main page</a><br>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+  </div>
+
+  <div class="row">
+      <div class="col-xs-4 col-xs-offset-4 mono">
+        <hr>
+        <h4>Scoring</h4>
+        <ul class="list-unstyled mono">
+          <li>Reach the water--20 pts</li>
+          <li>Rock--------------5 pts</li>
+          <li>Blue Gem---------20 pts</li>
+          <li>Green Gem--------30 pts</li>
+          <li>Orange Gem-------40 pts</li>
+          <li>Heart------------50 pts</li>
+          <li>Key--------------60 pts</li>
+          <li>Star-------------75 pts</li>
+        </ul>
+      </div>
+  </div>
+</body>
+</html>
