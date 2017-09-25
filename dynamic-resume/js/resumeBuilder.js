@@ -174,28 +174,28 @@ var project = {
     {
       "title":        "Portfolio",
       "description":  "My online portfolio.",
-      "url":          "http://jasonforce.tech",
+      "url":          "https://mojason-81.github.io/me/",
       "image":        ["./images/portfolio2.jpg"],
       "dates":        "2015"
     },
     {
       "title":        "An Unfinished Read",
       "description":  "A site showcasing all the books on my shelf I have failed to finish.",
-      "url":          "http://jasonforce.tech/books-unread/",
+      "url":          "https://mojason-81.github.io/me/books-unread/",
       "image":        ["./images/book_bw.jpg"],
       "dates":        "2015"
     },
     {
       "title":        "Frogger Clone",
       "description":  "This is a clone of the classic game, Frogger.",
-      "url":          "http://jasonforce.tech/frogger-clone/",
+      "url":          "https://mojason-81.github.io/me/frogger-clone/",
       "image":        ["./images/frogger.jpg"],
       "dates":        "2015"
     },
     {
       "title":        "Neighborhood Map",
       "description":  "Interactive map utilizing Knockout.js, Google Maps, and Wikipedia APIs.",
-      "url":          "http://jasonforce.tech/neighborhood-map/",
+      "url":          "https://mojason-81.github.io/me/neighborhood-map/",
       "image":        ["./images/neighborhood-map.jpg"],
       "dates":        "2016"
     }
