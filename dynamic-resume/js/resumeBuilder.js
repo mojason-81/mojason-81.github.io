@@ -51,10 +51,18 @@ var bio = {
 var work = {
   "jobs": [
     {
+      "employer":     "Andrews McMeel Universal",
+      "position":     "Software Developer",
+      "location":     "Kansas City, MO",
+      "dates":        "Jul 2017 - Present",
+      "url":          "http://www.andrewsmcmeel.com/",
+      "description":  "Develop and support Ruby on Rails web applications. Integrate vendor applications and services. Interact with system administrators, designers, and other software developers to engineer, troubleshoot and launch applications and enhancements. Take an active consulting role in cross-departmental projects when needed. Review and document existing software and processes and recommend improvements."
+    },
+    {
       "employer":     "Multi Service",
       "position":     "Software Engineer I",
       "location":     "Overland Park, KS",
-      "dates":        "Oct 2015 - Present",
+      "dates":        "Oct 2015 - Jun 2017",
       "url":          "http://www.multiservice.com/home.html",
       "description":  "My team's current objective is to design and implement custom APIs and SPAs for a large footwear retailer and its associated stores to use so that we can process their transactions across the US and Canada. This project involves a combination of Rails API, EmberJS UI, and a monolithic application as appropriate, while working with the development and business teams at Red Wing and Multi Service in order to address all business needs in an agile way.<br>We strive to work as agile development team, working to produce features required for end users to more efficiently perform their work.  Daily, we work on the development and peer reviews of user stories on our kanban board."
     },
