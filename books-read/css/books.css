@@ -1,0 +1,90 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    /*font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    outline: 1px solid red;*/
+}
+
+/*##################
+    Tags
+##################*/
+
+figure {
+  margin: 0;
+  height: 30em;
+}
+
+header, footer {
+  margin: 1em auto 1em auto;
+  padding: 0.5em;
+  clear: both;
+}
+
+h4 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+p {
+  margin-top: 0.25em;
+}
+
+figcaption {
+  font-size: 1.75em;
+  margin: 0.25em auto 0.2em;
+  border-bottom: 1px solid black;
+}
+
+p span, figcaption span{
+  font-style: oblique;
+}
+
+figcaption span {
+  font-size: 0.75em;
+}
+
+/*#########################
+    Content Section Classes
+    Excludes img classes
+#########################*/
+
+.grid {
+  margin: 1em auto 0;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.row {
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+  text-align: center;
+  padding: 0.25em;
+}
+
+.head-fig {
+  height: auto;
+}
+
+/*########################
+    Image tags and classes
+########################*/
+
+.lead-img {
+  max-width: 450px;
+  width: 100%;
+  height auto;
+}
+
+.body-img {
+  margin: 0 auto;
+  max-height: 256px;
+}
