@@ -51,10 +51,18 @@ var bio = {
 var work = {
   "jobs": [
     {
+      "employer":     "Red Nova Labs",
+      "position":     "Software Developer",
+      "location":     "Westwood, KS",
+      "dates":        "Apr 2018 - Present",
+      "url":          "http://www.rednovalabs.com",
+      "description":  "Work in agile sprints to develop and maintain self-storage facility management software. Build applications that focus on great user experience. Write maintainable code with extensive tests and version control"
+    },
+    {
       "employer":     "Andrews McMeel Universal",
       "position":     "Software Developer",
       "location":     "Kansas City, MO",
-      "dates":        "Jul 2017 - Present",
+      "dates":        "Jul 2017 - Apr 2018",
       "url":          "http://www.andrewsmcmeel.com/",
       "description":  "Develop and support Ruby on Rails web applications. Integrate vendor applications and services. Interact with system administrators, designers, and other software developers to engineer, troubleshoot and launch applications and enhancements. Take an active consulting role in cross-departmental projects when needed. Review and document existing software and processes and recommend improvements."
     },
@@ -241,5 +249,5 @@ bio.display();
 work.display();
 education.display();
 project.display();
-$("#mapDiv").append(googleMap);
+// $("#mapDiv").append(googleMap);
 // $("#main").append(internationalizeButton);
